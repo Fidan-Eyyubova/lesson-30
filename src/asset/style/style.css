@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.container .container-body {
+  border: 1px solid lightgray;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px 0 #0f2e75;
+}
+.container .container-body h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0f2e75;
+  font-size: 30px;
+}
+.container .container-body .error {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: red;
+}
+.container .container-body .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.container .container-body .btn button {
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid #0f2e75;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 10px 0px;
+  background-color: white;
+  color: #0f2e75;
+}
+.container .container-body form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-body form input {
+  width: 250px;
+  height: 40px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: 0;
+}
+.container .container-body form button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #0f2e75;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
